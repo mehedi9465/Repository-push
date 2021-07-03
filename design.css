@@ -3,4 +3,5 @@ body{
     padding: 0;
     font-family: serif;
     background: url('./image/cars.png');
+    color: red;
 }
