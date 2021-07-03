@@ -1,0 +1,1195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aerial', sans-serif;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Header{
+    background-color: white;
+}
+
+.Header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header_left{
+    width: 50%;
+    float: left;
+}
+
+.header_left::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header_logo{
+    width: 20%;
+    float: left;
+}
+
+.header_logo img{
+    width: 97px;
+    height: 38px;
+    display: block;
+    margin: 20px 0px 20px 28px;
+}
+
+.textArea{
+    width: 44%;
+    float: left;
+    margin: 23px;
+    position: relative;
+}
+
+.textArea::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.textArea input[type="text"]{
+    width: 100%;
+    height: 32px;
+    padding-left: 30px;
+    margin: none;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px #82858C;
+    box-sizing: border-box;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 15px;
+    color: #82858C;
+}
+
+.textArea input[type="text"]::placeholder{
+    font-weight: bold;
+}
+
+.textArea input[type="submit"]{
+    padding: 9px 16px;
+    border: none;
+    outline: none;
+    background-color: #26C078;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 100%;
+    top: -5%;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.textArea i{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    color: #82858C;
+}
+
+.textArea input[submit]{
+    width: 20%;
+    float: left;
+}
+
+.header_right{
+    width: 50%;
+    float: left;
+}
+
+.header_right::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header_right ul{
+    width: 88%;
+    float: left;
+}
+
+.header_right ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 30px 0px;
+}
+
+.header_right ul li a{
+    font-weight: bold;
+    color: #82858C;
+}
+
+.header_right ul li a:hover{
+    color: #26C078;
+}
+
+.header_right ul li:nth-child(1) a{
+    color: #6CE9D7;
+}
+
+.header_right ul li:nth-child(1) a:hover{
+    opacity: 0.7;
+}
+
+.header_right ul li:nth-child(2) a{
+    color: #1E1692;
+}
+
+.profile{
+    width: 10%;
+    float: left;
+    margin-top: 15px;
+    position: relative;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #82858C;
+}
+
+.circle{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #26C078;
+
+    position: absolute;
+    left: 30px;
+    top: 1px;
+}
+
+.HeaderMenu{
+    width: 100%;
+}
+
+.MenuBar{
+    
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 1px #7F7F7F;
+}
+
+.MenuBar ul{
+    display: table;
+    margin: auto;
+}
+
+.MenuBar ul li{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    border-bottom: 3px solid transparent;
+}
+
+.MenuBar ul li a{
+    color: #82858C;
+}
+
+.MenuBar ul li:hover{
+    border-bottom: 3px solid #26C078;
+}
+
+.MenuBar ul li:hover .Industries{
+    display: block;
+}
+
+.Graphics{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 2px #404145;
+    position: absolute;
+    top: 100%;
+    left: 12px;
+    background-color: white;
+    display: none;
+}
+
+.MenuBar ul li:hover .Graphics{
+    display: block;
+}
+
+.Graphics::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.one{
+    width: 25%;
+    float: left;
+    padding: 22px 0px;
+}
+
+.one ul{
+    margin-left: 27px;
+    margin-bottom: 20px;
+}
+
+.one ul li{
+    width: 80%;
+    margin: auto;
+    padding: 12px 0px;
+}
+
+.one ul li:nth-child(1) a{
+    color: #404145;
+    font-weight: bold;
+}
+
+.one ul li a{
+    color: #82858C;
+}
+
+.one ul li a span{
+    font-size: 11px;
+    color: #FF64AE;
+    padding: 1px 5px;
+    border: 1px solid #FF64AE;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+/* Existing Properties */
+
+.MenuBar ul li ul li{
+    border: none;
+}
+
+.MenuBar ul li ul li:hover{
+    border: none;
+}
+
+.MenuBar ul li ul li:hover a{
+    text-decoration: underline;
+}
+
+/* Existing Properties */
+
+
+/* Conflicting Properties */
+
+.MenuBar ul li .Industries .leftPortion ul li{
+    display: block;
+    padding: 12px 0px;
+    border: none;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li:hover{
+    border: none;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li a{
+    display: block;
+    margin-left: 37px;
+    color: #82858C;
+    font-weight: bold;
+    width: 100%;
+    text-decoration: none;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li a:hover{
+    text-decoration: underline;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Fashion ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Fashion ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Fashion ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+    text-decoration: none;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Fashion ul li a:hover{
+    text-decoration: underline;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Gaming ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Gaming ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Gaming ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+
+.MenuBar ul li .Industries .leftPortion ul li .E-Commerce ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .E-Commerce ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .E-Commerce ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Book ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Book ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Book ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+
+.MenuBar ul li .Industries .leftPortion ul li .Podcast ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Podcast ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Podcast ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+
+.MenuBar ul li .Industries .leftPortion ul li .Influencers ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Influencers ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Influencers ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+
+.MenuBar ul li .Industries .leftPortion ul li .Architecture ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Architecture ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Architecture ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Estate ul li{
+    border: none;
+    display: block;
+    padding: 12px 0px;
+    width: 100%;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Estate ul li:hover{
+    background-color: transparent;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li .Estate ul li a{
+    color: #82858C;
+    width: 100%;
+    margin-left: 17px;
+}
+
+
+.MenuBar ul li .Industries .leftPortion ul li  .FashionBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .GamingBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .E-CommerceBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .BookBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .PodcastBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .InfluencersBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .ArchitectureBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+.MenuBar ul li .Industries .leftPortion ul li  .EstateBottom .contents ul li:nth-child(1) a{
+    color: #404145;
+}
+
+
+/* Conflicting Properties */
+
+.Industries{
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    position: absolute;
+    top: 103%;
+    left: 0px;
+    display: none;
+    
+}
+
+.Industries_mid{
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    border-right: 1px solid rgb(204, 204, 204);
+    position: relative;
+    box-shadow: 0px 0px 6px rgb(204, 204, 204);
+}
+
+.Industries_mid::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.leftPortion{
+    width: 23%;
+    height: 100%;
+    float: left;
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+.leftPortion ul{
+    margin-top: 20px;
+}
+
+.leftPortion ul li{
+    display: block;
+    padding: 12px 0px;
+}
+
+.leftPortion ul li a{
+    display: block;
+    margin-left: 37px;
+    color: #82858C;
+    font-weight: bold;
+}
+
+.leftPortion ul li a span{
+    font-size: 11px;
+    color: #FF64AE;
+    padding: 1px 5px;
+    border: 1px solid #FF64AE;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.leftPortion ul li a i{
+    float: right;
+    margin-right: 30px;
+    margin: 4px 30px 4px 0px;
+    font-size: 12px;
+}
+
+/*   LeftPortion Hover Start */
+
+.leftPortion ul li:hover{
+    background-color: #F5F5F5;
+}
+
+.leftPortion ul li:hover .Fashion{
+    display: block;
+}
+
+.leftPortion ul li:hover .Gaming{
+    display: block;
+}
+
+.leftPortion ul li:hover .E-Commerce{
+    display: block;
+}
+
+.leftPortion ul li:hover .Book{
+    display: block;
+}
+
+.leftPortion ul li:hover .Podcast{
+    display: block;
+}
+
+.leftPortion ul li:hover .Influencers{
+    display: block;
+}
+
+.leftPortion ul li:hover .Architecture{
+    display: block;
+}
+
+.leftPortion ul li:hover .Estate{
+    display: block;
+}
+
+/*   LeftPortion Hover End */
+
+.Fashion{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.FashionTop{
+    width: 100%;
+}
+
+.FashionTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.FashionTop a:hover{
+    text-decoration: underline;
+}
+
+.FashionTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.FashionBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.contents{
+    width: 25%;
+    float: left;
+    margin-right: 0px;
+}
+
+.contents::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contents ul{
+    display: table;
+    margin: auto;
+}
+
+.contents ul li{
+    display: block;
+    padding: 12px 0px;
+}
+
+.contents ul li:nth-child(1) a{
+    color: #404145;
+    font-weight: bold;
+}
+
+.contents ul li a{
+    color: #82858C;
+    width: 100%;
+}
+
+.contents ul li a span{
+    font-size: 11px;
+    color: #FF64AE;
+    padding: 1px 5px;
+    border: 1px solid #FF64AE;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+/*   LeftPortion Hover Start */
+    .contents ul li a:hover{
+        text-decoration: underline;
+    }
+/*   LeftPortion Hover End */
+
+.Gaming{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.GamingTop{
+    width: 100%;
+}
+
+.GamingTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.GamingTop a:hover{
+    text-decoration: underline;
+}
+
+.GamingTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.GamingBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.E-Commerce{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.E-CommerceTop{
+    width: 100%;
+}
+
+.E-CommerceTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.E-CommerceTop a:hover{
+    text-decoration: underline;
+}
+
+.E-CommerceTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.E-CommerceBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Book{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.BookTop{
+    width: 100%;
+}
+
+.BookTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.BookTop a:hover{
+    text-decoration: underline;
+}
+
+.BookTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.BookBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Podcast{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.PodcastTop{
+    width: 100%;
+}
+
+.PodcastTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.PodcastTop a:hover{
+    text-decoration: underline;
+}
+
+.PodcastTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.PodcastBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Influencers{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.InfluencersTop{
+    width: 100%;
+}
+
+.InfluencersTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.InfluencersTop a:hover{
+    text-decoration: underline;
+}
+
+.InfluencersTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.InfluencersBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Architecture{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.ArchitectureTop{
+    width: 100%;
+}
+
+.ArchitectureTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.ArchitectureTop a:hover{
+    text-decoration: underline;
+}
+
+.ArchitectureTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.ArchitectureBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Estate{
+    width: 76%;
+    height: 100%;
+
+    position: absolute;
+    left: 23%;
+    top: 0px;
+    display: none;
+}
+
+.EstateTop{
+    width: 100%;
+}
+
+.EstateTop a{
+    font-size: 23px;
+    color: #404145;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 37px;
+    margin-bottom: 3px;
+}
+
+.EstateTop a:hover{
+    text-decoration: underline;
+}
+
+
+.EstateTop p{
+    font-size: 18px;
+    color: #404145;
+    margin-left: 36px;
+}
+
+.EstateBottom{
+    width: 87%;
+    margin-top: 22px;
+}
+
+.Content1{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.Content_mid{
+    width: 95%;
+    margin: 33px auto 0px auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.Content_mid::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.request{
+    width: 20%;
+    height: 240px;
+    float: left;
+    background-color: #f8f8f8;
+    border: 1px solid #efeff0;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.request h6{
+    font-size: 18px;
+    color: #404145;
+    text-align: center;
+    margin: 50px 0px 15px 0px;
+}
+
+.request p{
+    text-align: center;
+    color: #404145;
+    line-height: 25px;
+    font-size: 17px;
+    width: 75%;
+    margin: auto;
+}
+
+.request a{
+    display: table;
+    margin: auto;
+    padding: 8px 55px;
+    border: 1px solid #26C078;
+    font-size: 14px;
+    color: #26C078;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.request a:hover{
+    background-color: #26C078;
+    color: white;
+}
+
+.slide{
+    width: 79%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.slide img{
+    width: 990px;
+    height: 240px;
+    float: right;
+}
+
+.browsing{
+    width: 95%;
+    margin: 25px auto 0px auto;
+}
+
+.browsing::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.browsing h4{
+    font-size: 24px;
+    line-height: 130%;
+    float: left;
+    color: #404145;
+}
+
+.browsing h4 span{
+ color: #4A73E8;
+}
+
+.browsing a{
+    float: right;
+    margin-top: 9px;
+    margin-right: 15px;
+}
+
+.browsing a i{
+    font-size: 13px;
+}
+
+.browser_mid{
+    width: 95%;
+    margin: auto;
+}
+
+.browser_mid::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.Gigbox{
+    width: 17%;
+    box-shadow: 0px 0px 3px #82858C;
+    margin: 30px 45px 20px 0px;
+    float: left;
+}
+
+.Gigbox:hover .gigname p{
+    color: #26C078;
+}
+
+.noMargin{
+    margin-right: 0px;
+}
+
+.top{
+    width: 100%;
+}
+
+.top img{
+    width: 100%;
+}
+
+.middle{
+    width: 100%;
+}
+
+.username{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.username img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.username p{
+    display: inline-block;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.gigname{
+    display: block;
+    margin-top: 20px;
+}
+
+.gigname p{
+    width: 87%;
+    margin: auto;
+    text-align: justify;
+}
+
+.review{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.review p{
+    width: 90%;
+    margin: auto;
+}
+
+.review p i{
+    color: #FFBF00;
+}
+
+.review p span{
+    color: #FFBF00;
+}
+
+.bottom{
+    width: 100%;
+
+}
+
+.bottom p{
+    display: inline-block;
+    width: 90%;
+    margin: 12px 12px 12px 12px;
+    color: #747474;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bottom p i{
+    color: #B5B6BA;
+    font-size: 18px;
+}
+
+.bottom p i:nth-child(2){
+    margin-right: 29px;
+}
+
+.bottom p span{
+    font-size: 19px;
+    color: #787878;
+}
+
